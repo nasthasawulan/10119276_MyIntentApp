@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_iphone_13__12_pro_max___1"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/imgSplash"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="230dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/_removal_ai__tmp_62629eab79c8d" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgSplash"
+        android:layout_marginTop="1dp"
+        android:text="IntentApp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="36dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="275dp"
+        android:text="Nasthasa Wulan - 10119276 - IF7"
+        android:textAlignment="center"/>
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/ic_b"
+    tools:context=".RegistrationActivity">
+
+    <TextView
+        android:id="@+id/RegView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        android:paddingTop="100dp"
+        android:paddingBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/namaDepan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Depan"
+        android:inputType="text"
+        android:paddingTop="16dp"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/namaBelakang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Belakang"
+        android:inputType="text"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/noTelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Telepon"
+        android:inputType="number"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-Mail"
+        android:inputType="textEmailAddress"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Loggin"
+        android:text="Daftar"
+        android:layout_marginTop="20dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        app:cornerRadius="10dp"
+        android:backgroundTint="#EECFA1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="135dp"
+        android:text="Nasthasa Wulan - 10119276 - IF7"
+        android:textAlignment="center"/>
+
+</LinearLayout>

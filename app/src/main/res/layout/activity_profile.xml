@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="100dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/ic_b"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/profil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1700dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/a"
+        android:layout_below="@id/profil"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nasthasa Wulan Ghani Sopian"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/imageView"/>
+
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10119276"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/nama"/>
+
+    <TextView
+        android:id="@+id/kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelas IF-7"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/nim"/>
+
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Saya merupakan seorang mahasiswa di program studi Teknik Informatika Universitas Komputer Indonesia (UNIKOM) angkatan 2019 dan sekarang sedang menempuh semester 6. Saya memiliki hobby menggambar dan menonton film serta series."
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/kelas"/>
+
+    <Button
+        android:id="@+id/btn_menu"
+        android:onClick="Menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deskripsi"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="16dp"
+        app:cornerRadius="10dp"
+        android:backgroundTint="#EECFA1"
+        android:text="Kembali ke menu"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deskripsi"
+        android:layout_marginTop="160dp"
+        android:text="Nasthasa Wulan - 10119276 - IF7"
+        android:textAlignment="center"/>
+
+</RelativeLayout>

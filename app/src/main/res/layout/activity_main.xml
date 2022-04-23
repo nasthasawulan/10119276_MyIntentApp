@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:orientation="vertical"
+    android:background="@drawable/ic_b"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="36dp"
+        android:textAlignment="center"
+        android:paddingTop="50dp"/>
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To This App"
+        android:textSize="36dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/welcome"/>
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/to"
+        android:paddingTop="80dp"
+        android:paddingBottom="30dp"
+        android:text="Choose Menu :"
+        android:textAlignment="center"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:onClick="Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="20dp"
+        app:cornerRadius="10dp"
+        android:backgroundTint="#EECFA1"
+        android:text="Profile"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:onClick="Logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="30dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Logout"
+        app:cornerRadius="10dp"
+        android:layout_below="@+id/btn_profile"
+        android:backgroundTint="#878f99"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_logout"
+        android:layout_marginTop="275dp"
+        android:text="Nasthasa Wulan - 10119276 - IF7"
+        android:textAlignment="center"/>
+
+</RelativeLayout>
